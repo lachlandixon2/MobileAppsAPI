@@ -1,0 +1,3 @@
+dotnet aspnet-codegenerator controller -name PeopleController -m MobileAppsAPI.Models.Person -dc MobileAppsAPI.Models.RoiDatabaseContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries -api
+dotnet aspnet-codegenerator controller -name DepartmentsController -m MobileAppsAPI.Models.Department -dc MobileAppsAPI.Models.RoiDatabaseContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries -api
+
